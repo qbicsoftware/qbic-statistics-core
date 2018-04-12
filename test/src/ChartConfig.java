@@ -1,4 +1,3 @@
-package life.qbic.model.data;
 
 import java.util.ArrayList;
 import java.util.Map;
