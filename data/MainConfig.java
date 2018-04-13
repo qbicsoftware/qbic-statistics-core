@@ -10,7 +10,7 @@ import java.util.Map;
  */
 public class MainConfig {
 
-    private Map<String, ChartConfig> charts;
+    private Map<String, ChartConfig> charts = new HashMap<>();
 
     public Map<String, ChartConfig> getCharts() {
         return charts;
