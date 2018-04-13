@@ -7,7 +7,7 @@ import java.util.stream.Stream;
 /**
  * @author fhanssen
  */
-public enum Test {
+public enum SuperKingdoms {
     //as found at: https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi
     Archae("Archae"),
     Bacteria("Bacteria"),
@@ -15,11 +15,11 @@ public enum Test {
     Viroids("Viroids"),
     Viruses("Viruses");
 
-    private static final List<String> enumList = Arrays.asList(Stream.of(Test.values()).map(Test::name).toArray(String[]::new));
+    private static final List<String> enumList = Arrays.asList(Stream.of(SuperKingdoms.values()).map(SuperKingdoms::name).toArray(String[]::new));
 
     private final String kingdom;
 
-    Test(String kingdom){
+    SuperKingdoms(String kingdom){
         this.kingdom = kingdom;
     }
 
