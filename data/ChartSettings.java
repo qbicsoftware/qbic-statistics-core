@@ -16,6 +16,10 @@ public class ChartSettings {
     private String xAxisTitle;
     private String yAxisTitle;
 
+    public ChartSettings(String title){
+        this.title = title;
+    }
+
     public ArrayList<Object> getxCategories() {
         return xCategories;
     }
