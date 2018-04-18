@@ -18,7 +18,8 @@ public enum ChartNames {
     Bacteria_Species("Bacteria_Species"),
     Viruses_Species("Viruses_Species"),
     Species_Genus("Species_Genus"),
-    Workflow("Workflow"),
+    Workflow_Execution_Counts("Workflow_Execution_Counts"),
+    Available_Workflows_("Available_Workflows_"),
     Projects_Technology("Projects_Technology"),
     Sample_Types("Sample_Types");
 
