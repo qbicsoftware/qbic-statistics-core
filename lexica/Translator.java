@@ -20,7 +20,7 @@ public enum Translator {
 
     Translator(String original, String translation){
         this.original = original;
-        this.translation = translation
+        this.translation = translation;
     }
 
     @Override
@@ -29,7 +29,7 @@ public enum Translator {
     }
 
     public String getTranslation(){
-        return this.translation
+        return this.translation;
     }
 
     public static List<String> getList(){
