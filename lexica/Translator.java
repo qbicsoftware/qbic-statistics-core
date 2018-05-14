@@ -12,7 +12,9 @@ public enum Translator {
     CELL_LYSATE("CELL_LYSATE", "Cell Lysate"),
     SMALLMOLECULES("SMALLMOLECULES", "Small Molecules"),
     MA("MA", "Microarray"),
-    MS("MS", "Mass Spectrometry");
+    MS("MS", "Mass Spectrometry"),
+    PX("PX", "Proteomics"),
+    LX("LX", "Ligandomics");
 
     private final String original;
     private final String translation;
