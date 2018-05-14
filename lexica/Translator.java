@@ -42,7 +42,7 @@ public enum Translator {
         return original;
     }
 
-    public String getOriginal(String translation){
+    public static String getOriginal(String translation){
         for(Translator s : Translator.values()){
             if(s.getTranslation().equals(translation)){
                 return s.getOriginal();
