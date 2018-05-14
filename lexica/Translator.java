@@ -6,7 +6,7 @@ import java.util.stream.Stream;
 
 /**
  * @author fhanssen
- * This enum class holds commonly used abbreviations suc DNA, RNA, etc.
+ *
  */
 public enum Translator {
     CELL_LYSATE("CELL_LYSATE", "Cell Lysate"),
@@ -36,5 +36,18 @@ public enum Translator {
 
     public static List<String> getList(){
         return enumList;
+    }
+
+    public String getOriginal() {
+        return original;
+    }
+
+    public String getOriginal(String translation){
+        for(Translator s : Translator.values()){
+            if(s.getTranslation().equals(translation)){
+                return s.getOriginal();
+            }
+        }
+        return "";
     }
 }
