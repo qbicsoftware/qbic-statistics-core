@@ -52,4 +52,13 @@ public enum Translator {
         }
         return "";
     }
+
+    public static String getTranslation(String original){
+        for(Translator s : Translator.values()){
+            if(s.getOriginal().equals(original)){
+                return s.getTranslation();
+            }
+        }
+        return "";
+    }
 }
