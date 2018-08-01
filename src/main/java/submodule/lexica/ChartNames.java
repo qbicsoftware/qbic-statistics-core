@@ -21,7 +21,8 @@ public enum ChartNames {
     Workflow_Execution_Counts("Workflow_Execution_Counts"),
     Available_Workflows_("Available_Workflows_"),
     Projects_Technology("Projects_Technology"),
-    Sample_Types("Sample_Types");
+    Sample_Types("Sample_Types"),
+    Multi_omics("Multi_omics");
 
     //TODO 1: Sync ChartNames with the eponymic class Chart names in the data retrieval tool
 
