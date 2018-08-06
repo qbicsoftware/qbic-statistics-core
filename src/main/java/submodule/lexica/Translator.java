@@ -16,7 +16,6 @@ public enum Translator {
     Q_MICROARRAY_RUN("Q_MICROARRAY_RUN", "Microarray"),
     Q_MS_RUN("Q_MS_RUN", "Mass Spectrometry"),
     Q_NGS_SINGLE_SAMPLE_RUN("Q_NGS_SINGLE_SAMPLE_RUN", "NGS"),
-    Q_NGS("NGS", "NGS"),
     PX("PX", "Proteomics"),
     LX("LX", "Ligandomics");
 
