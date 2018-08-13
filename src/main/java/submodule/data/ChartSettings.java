@@ -50,7 +50,7 @@ public class ChartSettings {
         this.subtitle = subtitle;
     }
 
-    private String getTabTitle(){return tabTitle; }
+    public String getTabTitle(){return tabTitle; }
 
     public void setTabTitle(String tabTitle){ this.tabTitle = tabTitle; }
 
