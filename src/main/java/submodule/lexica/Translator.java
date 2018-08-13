@@ -17,7 +17,8 @@ public enum Translator {
     Q_MS_RUN("Q_MS_RUN", "Mass Spectrometry"),
     Q_NGS_SINGLE_SAMPLE_RUN("Q_NGS_SINGLE_SAMPLE_RUN", "NGS"),
     PX("PX", "Proteomics"),
-    LX("LX", "Ligandomics");
+    LX("LX", "Ligandomics"),
+    Multi_omics("Multi_omics", "Multi-omics");
 
     private final String original;
     private final String translation;
