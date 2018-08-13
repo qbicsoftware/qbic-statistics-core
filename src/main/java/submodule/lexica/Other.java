@@ -28,5 +28,5 @@ public enum Other {
     public static List<String> getList(){
         return enumList;
     }
-    
+
 }
