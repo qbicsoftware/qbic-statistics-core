@@ -19,8 +19,8 @@ public enum Other {
     static {
         List<String> list = new ArrayList<>();
         for (Other other : Other.values()) {
-            System.out.println("Dep: " + other.toString());
-            String name = other.toString();
+            System.out.println("Dep " + other.toString());
+            String name = other.name();
             list.add(name);
         }
         enumList = Arrays.asList(list.toArray(new String[0]));
