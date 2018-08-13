@@ -13,6 +13,7 @@ public class ChartSettings {
     private ArrayList<Object> yCategories;
     private String title;
     private String subtitle;
+    private String tabTitle;
     private String xAxisTitle;
     private String yAxisTitle;
 
@@ -48,6 +49,10 @@ public class ChartSettings {
     public void setSubtitle(String subtitle) {
         this.subtitle = subtitle;
     }
+
+    private String getTabTitle(){return tabTitle; }
+
+    private void setTabTitle(String tabTitle){ this.tabTitle = tabTitle; }
 
     public String getxAxisTitle() {
         return xAxisTitle;
