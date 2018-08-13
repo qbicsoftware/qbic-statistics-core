@@ -1,5 +1,6 @@
 package submodule.lexica;
 
+import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 import java.util.stream.Stream;
@@ -13,7 +14,16 @@ public enum Other {
 
     private final String original;
 
-    private static final List<String> enumList = Arrays.asList(Stream.of(Other.values()).map(Other::name).toArray(String[]::new));
+    private static final List<String> enumList;
+
+    static {
+        List<String> list = new ArrayList<>();
+        for (Other other : Other.values()) {
+            String name = other.toString();
+            list.add(name);
+        }
+        enumList = Arrays.asList(list.toArray(new String[0]));
+    }
 
 
     Other(String original){
