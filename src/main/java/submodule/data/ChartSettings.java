@@ -52,7 +52,7 @@ public class ChartSettings {
 
     private String getTabTitle(){return tabTitle; }
 
-    private void setTabTitle(String tabTitle){ this.tabTitle = tabTitle; }
+    public void setTabTitle(String tabTitle){ this.tabTitle = tabTitle; }
 
     public String getxAxisTitle() {
         return xAxisTitle;
